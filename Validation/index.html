@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation</title>
+  </head>
+  <body>
+    <p>Enter a value</p>
+    <!-- <input type="number" id="testInput" min="10" max="20" /> -->
+    <!-- <input
+      type="text"
+      id="testInput"
+      pattern="[A-Za-z]{3}"
+      maxlength="3"
+      minlength="3"
+    /> -->
+    <form novalidate>
+      <!-- It specifies that the form data -input- should not be validated when submitted -->
+    </form>
+    <button onclick="validate()">Submit</button>
+    <p id="result"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
